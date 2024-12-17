@@ -1,0 +1,44 @@
+nav ul div, .cont{
+    display: none;
+}
+
+.burger{
+    display: flex;
+    font-size: 2rem;
+}
+
+body{
+    background: url('/Assets&Images/My-portfolio-clip.mp4');
+    background-size: contain;
+    height: 100%;
+}
+
+main video{
+    width: 100vw;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.751);
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+}
+
+.texts{
+    position: absolute;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: -1rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10vw;
+    background-color: black;
+}
+
+.box{
+    border: 1px solid white;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem 0.5rem;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+}
+
+nav ul div{
+    display: flex;
+    gap: 2rem;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a:hover{
+    text-decoration: overline;
+    transition: all 2s ease-in-out;
+}
+
+.burger{
+    display: none;
+}
+
+body{
+    background: url('/Assets&Images/My-portfolio-clip.mp4');
+    background-size: contain;
+    height: 90vh;
+}
+
+main{
+    position: relative;
+}
+
+main video{
+    width: 120vw;
+    height: fit-content;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.751);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+
+.texts{
+    position: absolute;
+    font-size: 1.5rem;
+    padding: 2rem;
+    margin-top: -20rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 14vw;
+}
+
+.box{
+    border: 1px solid white;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+}
