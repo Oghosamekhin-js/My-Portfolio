@@ -6,16 +6,16 @@
 
 nav ul{
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
-    padding: 2rem 0.5rem;
+    padding: 2rem 1rem;
     font-size: 1.5rem;
     background-color: rgb(0, 0, 0);
 }
 
 nav ul div{
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 nav ul li a{
@@ -30,45 +30,47 @@ nav ul li{
 
 nav ul li a:hover{
     text-decoration: overline;
-    transition: all 2s ease-in-out;
+    transition-delay: all 2s;
+}
+
+.logo{
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+    font-size: 3rem;
 }
 
 .burger{
     display: none;
 }
 
-body{
-    background: url('/Assets&Images/My-portfolio-clip.mp4');
-    background-size: contain;
-    height: 90vh;
-}
-
 main{
     position: relative;
+    min-height: 100vh;
 }
 
 main video{
-    width: 120vw;
-    height: fit-content;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -2rem;
 }
 
 .overlay{
     background-color: rgba(0, 0, 0, 0.751);
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     position: absolute;
+    margin-top: -1rem;
 }
 
 .texts{
     position: absolute;
     font-size: 1.5rem;
     padding: 2rem;
-    margin-top: -20rem;
+    margin-top: -16rem;
     color: white;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
-    gap: 14vw;
+    gap: 13.7vw;
 }
 
 .box{

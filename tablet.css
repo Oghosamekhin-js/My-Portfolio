@@ -1,0 +1,47 @@
+nav ul div, .cont{
+    display: none;
+}
+
+.logo{
+    font-size: 2rem;
+}
+
+.burger{
+    display: flex;
+    font-size: 2.5rem;
+}
+
+main{
+    height: auto;
+    background-color: black;
+}
+
+main video{
+    margin-top: -7rem;
+    width: 100vw;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.751);
+    height: 85vh;
+    width: 100%;
+    position: absolute;
+}
+
+.texts{
+    position: absolute;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: -10rem;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 7vw;
+    background-color: black;
+}
+
+.box{
+    border: 1px solid white;
+    padding: 1.5rem 3.1rem;
+    border-radius: 1rem;
+}

@@ -7,19 +7,18 @@ nav ul div, .cont{
     font-size: 2rem;
 }
 
-body{
-    background: url('/Assets&Images/My-portfolio-clip.mp4');
-    background-size: contain;
-    height: 100%;
+main{
+    background-color: black;
 }
 
 main video{
     width: 100vw;
+    margin-top: -13rem;
 }
 
 .overlay{
     background-color: rgba(0, 0, 0, 0.751);
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     position: absolute;
 }
@@ -28,7 +27,7 @@ main video{
     position: absolute;
     font-size: 1rem;
     padding: 1rem;
-    margin-top: -1rem;
+    margin-top: -13.3rem;
     color: white;
     display: flex;
     flex-wrap: wrap;
