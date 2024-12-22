@@ -1,46 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My porfolio</title>
-    <link rel="stylesheet" href="/My-Portfolio/style.css">
-    <link rel="stylesheet" href="/My-Portfolio/tablet.css" media="(max-width:1100px)"/>
-    <link rel="stylesheet" href="/My-Portfolio/mobile.css" media="(max-width:400px)"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a96583ca91.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
+    <link rel="stylesheet" href="/My-Portfolio/style.css" />
+    <link
+      rel="stylesheet"
+      href="/My-Portfolio/tablet.css"
+      media="(max-width:1100px)"
+    />
+    <link
+      rel="stylesheet"
+      href="/My-Portfolio/mobile.css"
+      media="(max-width:400px)"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/a96583ca91.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li class="logo"><a href="#">DENNIS</a></li>
-                <div>
-                    <li><a href="#">Pitch</a></li>
-                    <li><a href="#">My porfolio</a></li>
+      <div class="overlay"></div>
+
+      <nav>
+        <ul class="nav1">
+          <li class="logo"><a href="#">DENNIS</a></li>
+          <div>
+            <li><a href="#">Pitch</a></li>
+            <li><a href="#">My porfolio</a></li>
+          </div>
+          <li class="cont"><a href="#">Contact Me</a></li>
+          <li class="burger">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+          </li>
+        </ul>
+
+        <div class="mobileNav">
+            <div class="logo"><a href="#">DENNIS</a></div>
+           
+            <div class="nav2">
+                <div class="burger"><a href="#"><i class="fa-solid fa-bars"></i></a></div>
+
+                <div class="mobileUl">
+                    <ul>
+                        <li><a href="#">Pitch</a></li>
+                        <li><a href="#">My porfolio</a></li>
+                        <li><a href="#">Contact Me</a></li>
+                    </ul>
                 </div>
-                <li class="cont"><a href="#">Contact Me</a></li>
-                <li class="burger"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+            </div>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="clip">
+          <video autoplay muted loop id="myVideo">
+            <source
+              src="/My-Portfolio/Assets&Images/Portfolio-background-clip.mp4"
+              type="video/mp4"
+            />
+          </video>
+
+          <div class="texts">
+            <ul>
+              <li class="txt1 box"><a href="http://">Pitch</a></li>
+              <li class="txt2 box"><a href="http://">Portfolio</a></li>
+              <li class="txt3 box"><a href="http://">Github</a></li>
+              <li class="txt4 box"><a href="http://">Twitter</a></li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </section>
     </header>
 
-    <main>
-        <div class="overlay"></div>
-
-       <video src="/My-Portfolio/Assets&Images/background.mp4" autoplay loop type="video" muted></video>
-
-       <div class="texts">
-        <div class="txt1 box">Pitch</div>
-        <div class="txt2 box">Portfolio</div>
-        <div class="txt3 box">Github</div>
-        <div class="txt4 box">Twitter</div>
-       </div>
-    </main>
-
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
