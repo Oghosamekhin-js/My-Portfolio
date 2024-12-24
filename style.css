@@ -120,3 +120,8 @@ header{
 .mobileNav{
     display: none;
 }
+
+.mobileUl.show{
+    border: 2px solid white;
+    display: none;
+}
