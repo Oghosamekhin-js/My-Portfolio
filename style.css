@@ -7,6 +7,7 @@
 nav{
     position: relative;
     z-index: 2;
+    transition-delay: all 2s;
 }
 
 .overlay{
@@ -23,6 +24,7 @@ nav ul{
     justify-content: space-between;
     padding: 2rem 1rem;
     font-size: 1.5rem;
+    transition-delay: all 2s;
 }
 
 nav ul div{
@@ -34,15 +36,17 @@ nav ul li a{
     color: white;
     text-decoration: none;
     list-style-type: none;
+    transition-delay: all 2s;
 }
 
 nav ul li{
     list-style-type: none;
+    transition-delay: all 2s;
 }
 
 nav ul li a:hover{
     text-decoration: overline;
-    transition-delay: all 2s;
+    
 }
 
 .logo{
