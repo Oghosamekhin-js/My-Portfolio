@@ -8,6 +8,4 @@ burger.addEventListener("click", function(e){
     const deleteX = burger.querySelector('.fa-solid');
 
     deleteX.classList.toggle("fa-xmark");
-
-    console.log(burger);
 })

@@ -11,10 +11,15 @@
 }
 
 /* BODY EDIT */
+body{
+    background-color: black !important;
+    font-size: 40rem;
+}
+
 .pitch{
     position: relative;
     z-index: 5;
-    bottom: 50rem;
+    bottom: 60rem !important;
     color: white;
     padding: 0 4rem;
 }
@@ -26,4 +31,20 @@
     height: 150vh;
     background-color: rgba(0, 0, 0, 0.844);
     top: 0;
+}
+
+.clip{
+    position: relative;
+    min-width: 100%;
+    /* min-height: 110vh; */
+    display: flex;
+    height: 200vh !important;
+}
+
+.clip video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100vh;
 }

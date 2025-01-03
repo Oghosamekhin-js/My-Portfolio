@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Permanent Marker", serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.image{
+    height: 20vh;
+    width: 20vw;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.scrolling-txt p{
+    width: 100vw;
+    text-transform: lowercase !important;
+}
+
+.scrolling-txt{
+    animation: scroll 20s linear infinite;
+    overflow: hidden; 
+    white-space: nowrap; 
+}
+
+@keyframes scroll {
+
+    0% { transform: translateX(100%); } 
+    100% { transform: translateX(-100%); } 
+  }
+
+.enter_txt form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.enter_txt #username{
+    width: 20vw;
+    padding: 0.5rem 1rem;
+}
+
+.enter_txt #submit{
+    padding: 0.3rem 1rem;
+}
