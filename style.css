@@ -35,7 +35,7 @@ body{
 }
 
 .scrolling-txt{
-    animation: scroll 20s linear infinite;
+    animation: scroll 35s linear infinite;
     overflow: hidden; 
     white-space: nowrap; 
 }
