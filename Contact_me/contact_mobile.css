@@ -1,3 +1,7 @@
+html{
+    background-color: brown;
+}
+
 .bodycon{
     display: flex;
     flex-wrap: wrap;

@@ -31,11 +31,10 @@ body{
 
 .scrolling-txt p{
     width: 100vw;
-    text-transform: lowercase !important;
 }
 
 .scrolling-txt{
-    animation: scroll 35s linear infinite;
+    animation: scroll 50s linear infinite;
     overflow: hidden; 
     white-space: nowrap; 
 }
