@@ -51,6 +51,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 0.7rem;
+    position: relative;
 }
 
 .enter_txt #username{
@@ -60,4 +61,15 @@ body{
 
 .enter_txt #submit{
     padding: 0.3rem 1rem;
+    cursor: pointer;
+}
+
+.enter_txt p{
+    color: red;
+    position: absolute;
+    bottom: 3rem;
+}
+
+.hidden{
+    display: none;
 }

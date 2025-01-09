@@ -14,12 +14,12 @@ nav ul div, .cont{
 .texts ul{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .texts ul li a{
     flex-wrap: wrap;
 }
+
 
 header nav{
     display: none;
@@ -33,4 +33,10 @@ header nav{
     padding: 2rem;
     width: 30vw;
     height: 30vh;
+}
+
+
+.text ul > * {
+    width: 40px;
+    flex-basis: 40px;
 }

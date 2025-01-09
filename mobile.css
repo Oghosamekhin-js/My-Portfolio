@@ -1,5 +1,5 @@
 .image{
-    height: 55vh;
+    height: 25vh;
     width: 50vw;
 }
 
@@ -14,14 +14,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.7rem;
+    gap: 0.8rem;
 }
 
 .enter_txt #username{
     width: 50vw !important;
     padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
 }
 
 .enter_txt #submit{
     padding: 0.3rem 1rem;
+    border-radius: 0.3rem;
+}
+
+.enter_txt p{
+    display: none;
+    color: red;
+    position: absolute;
 }
