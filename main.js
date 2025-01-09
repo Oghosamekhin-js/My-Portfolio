@@ -1,13 +1,3 @@
-const burger = document.querySelector('.nav2 .burger');
-const mobileUl = document.querySelector('.nav2 .mobileUl');
-
-burger.addEventListener("click", function(e){
-    mobileUl.classList.toggle("show");
-
-    const deleteX = burger.querySelector('.fa-solid');
-
-    deleteX.classList.toggle("fa-xmark");
-})
 
 // FOR MY INTRO PAGE
 const input = document.querySelector("#username");
@@ -26,7 +16,7 @@ btn.addEventListener("click", function (e) {
                             errorTxt.classList.add('hidden') //For error text to disappear after 2 seconds
                         }, 2000);
       }
-      
+
       setTimeout(() => {
         input.value = ""; //To clear input field after 2 seconds
     }, 2000);
