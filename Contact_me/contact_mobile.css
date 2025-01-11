@@ -1,7 +1,3 @@
-html{
-    background-color: brown;
-}
-
 .bodycon{
     display: flex;
     flex-wrap: wrap;
@@ -9,19 +5,22 @@ html{
     position: relative;
     z-index: 1;
     color: white;
-    top: -25rem;
+    top: -9rem;
     margin: 0;
     width: 100%;
+    padding: 0 1rem;
 }
 
 .bodycon1 h1{
-    font-size: 3rem;
-    padding: 2rem;
+    width: 200%;
+    font-size: 2.2rem;
+    padding: 2rem 0.5rem;
 }
 
 .bodycon1 p{
     font-size: 1.1rem;
     padding: 1rem 0;
+    width: 188%;
 }
 
 .bodycon1b span{
@@ -34,4 +33,18 @@ html{
 .bodycon1b{
     display: flex;
     gap: 2.5rem;
+}
+
+/* Image edit */
+.bodycon2{
+    margin-top: -3rem;
+    height: 50vh;
+    min-width: 90vw;
+}
+
+.bodycon2 img{
+    height: 50vh;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(197, 197, 197, 0.2), 0 6px 20px 0 rgba(192, 190, 190, 0.37);
+    margin: 2rem 0;
 }
