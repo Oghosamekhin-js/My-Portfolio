@@ -1,6 +1,6 @@
 .image{
-    height: 25vh;
-    width: 50vw;
+    height: 40vh;
+    width: 80vw;
 }
 
 .image img{
@@ -18,18 +18,18 @@
 }
 
 .enter_txt #username{
-    width: 50vw !important;
+    width: 70vw !important;
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
 }
 
 .enter_txt #submit{
-    padding: 0.3rem 1rem;
+    padding: 0.3rem 2rem;
     border-radius: 0.3rem;
 }
 
 .enter_txt p{
-    display: none;
     color: red;
     position: absolute;
+    bottom: 3rem;
 }

@@ -1,0 +1,26 @@
+.image{
+    height: 25vh;
+    width: 30vw;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.enter_txt #username{
+    width: 20vw;
+    padding: 0.5rem 2rem;
+}
+
+.enter_txt #submit{
+    padding: 0.3rem 1.5rem;
+    cursor: pointer;
+}
+
+.enter_txt p{
+    color: red;
+    position: absolute;
+    bottom: 3rem;
+}
